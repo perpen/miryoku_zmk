@@ -1,3 +1,11 @@
-// Copyright 2021 Manna Harbour
-// https://github.com/manna-harbour/miryoku
+// henri
 
+#define MIRYOKU_KLUDGE_THUMBCOMBOS
+
+#define HENRI_COMBO_MACRO(NAME, LAYER, POSITIONS, BINDING) \
+henri_combos_ ## LAYER ## _ ## NAME { \
+  layers = <LAYER>; \
+  key-positions = <POSITIONS>; \
+  bindings = <BINDING>; \
+  timeout-ms = <50>; \
+};
