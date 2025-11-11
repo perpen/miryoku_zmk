@@ -10,12 +10,22 @@
         combo_q {
             timeout-ms = <50>;
             key-positions = <MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE>;
-            bindings = <&kp ESC>;
+            bindings = <&kp Q>;
         };
         combo_quote {
             timeout-ms = <50>;
             key-positions = <MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTPINKIE>;
             bindings = <&kp SINGLE_QUOTE>;
+        };
+        combo_z {
+            timeout-ms = <50>;
+            key-positions = <MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_LEFTPINKIE>;
+            bindings = <&kp Z>;
+        };
+        combo_slash {
+            timeout-ms = <50>;
+            key-positions = <MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_RIGHTPINKIE>;
+            bindings = <&kp SLASH>;
         };
     };
 };
