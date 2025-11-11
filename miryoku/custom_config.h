@@ -1,2 +1,3 @@
 // henri
+#define MIRYOKU_KLUDGE_THUMBCOMBOS
 

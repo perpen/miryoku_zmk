@@ -4,3 +4,18 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/42/corne.h"
 #include "../miryoku/miryoku.dtsi"
+/ {
+    combos {
+        compatible = "zmk,combos";
+        combo_q {
+            timeout-ms = <50>;
+            key-positions = <MIRYOKU_KLUDGE_TOPROWCOMBOS_LEFTPINKIE>;
+            bindings = <&kp ESC>;
+        };
+        combo_quote {
+            timeout-ms = <50>;
+            key-positions = <MIRYOKU_KLUDGE_TOPROWCOMBOS_RIGHTPINKIE>;
+            bindings = <&kp SINGLE_QUOTE>;
+        };
+    };
+};
