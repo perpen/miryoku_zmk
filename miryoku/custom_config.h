@@ -1,2 +1,3 @@
 // henri
-// #define MIRYOKU_ALPHAS_QWERTY
+#define MIRYOKU_KLUDGE_THUMBCOMBOS
+
