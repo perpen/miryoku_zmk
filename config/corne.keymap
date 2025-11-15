@@ -34,5 +34,10 @@
             key-positions = <6 16>;
             bindings = <&kp ESC>;
         };
+        combo_repeat {
+            timeout-ms = <50>;
+            key-positions = <16 26>;
+            bindings = <&key_repeat>;
+        };
     };
 };
