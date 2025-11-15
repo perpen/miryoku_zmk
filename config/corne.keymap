@@ -29,5 +29,10 @@
             key-positions = <MIRYOKU_KLUDGE_BOTTOMROWCOMBOS_RIGHTPINKIE>;
             bindings = <&kp SLASH>;
         };
+        combo_esc {
+            timeout-ms = <50>;
+            key-positions = <6 16>;
+            bindings = <&kp ESC>;
+        };
     };
 };
