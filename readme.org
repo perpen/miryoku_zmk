@@ -1,3 +1,6 @@
+Run workflows `henri-*`.
+
+
 # Copyright 2023 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
@@ -257,7 +260,7 @@ The path to the directory below ~config/~ where the board or shield definition s
 
 **** outboard_branches
 
-Specify if the board or shield requires or is defined in one or more ZMK forks. Use is the same as for the workflow [[#branches][branches]] option. 
+Specify if the board or shield requires or is defined in one or more ZMK forks. Use is the same as for the workflow [[#branches][branches]] option.
 
 If the board or shield definition is contained in a specified branch, [[#Repository-and-Symlink-Variables][repository and symlink variables]] are not required.
 
@@ -266,7 +269,7 @@ If branches are also specified via the workflow ~branches~ option or in other ou
 
 **** outboard_modules
 
-Specify if the board or shield requires or is defined in one or more external modules. Use is the same as for the workflow [[#modules][modules]] option. 
+Specify if the board or shield requires or is defined in one or more external modules. Use is the same as for the workflow [[#modules][modules]] option.
 
 If the board or shield definition is contained in a specified module, [[#Repository-and-Symlink-Variables][repository and symlink variables]] are not required.
 
@@ -629,6 +632,6 @@ For workflow builds using [[#build-examples][Build Example]] workflows, see the 
 [[https://github.com/manna-harbour/miryoku/tree/master/docs/reference#additional-features][Current layer lock]] is not supported in ZMK. Use opposite layer lock with the opposite hand instead. See https://github.com/zmkfirmware/zmk/issues/1299.
 
 
-** 
+**
 
 [[https://github.com/manna-harbour][https://raw.githubusercontent.com/manna-harbour/miryoku/master/data/logos/manna-harbour-boa-32.png]]

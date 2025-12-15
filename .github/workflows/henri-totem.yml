@@ -1,0 +1,12 @@
+name: 'henri-totem'
+on: workflow_dispatch
+jobs:
+  build:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["xiao_ble"]'
+      shield: '["totem_left","totem_right"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16"]'
+      ## If i enable sleep, i need to configure a wakeup source, see https://github.com/KeyboardHoarders/zmk-totem-config/blob/8397861c6fed625ef88d63c95b0853fc8d33a928/config/boards/shields/totem/totem.dtsi#L32
+      # kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16\nCONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_IDLE_SLEEP_TIMEOUT=14400"]'

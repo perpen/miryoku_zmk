@@ -1,0 +1,4 @@
+## this file is used from workflow action.
+
+CONFIG_ZMK_POINTING=y
+CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16
