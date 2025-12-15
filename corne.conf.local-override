@@ -1,0 +1,13 @@
+## this file is used from workflow action.
+
+# Uncomment the following lines to enable the Corne RGB Underglow
+# CONFIG_ZMK_RGB_UNDERGLOW=y
+
+# Uncomment the following line to enable the Corne OLED Display
+# CONFIG_ZMK_DISPLAY=y
+
+CONFIG_ZMK_DISPLAY=y
+CONFIG_ZMK_WIDGET_OUTPUT_STATUS=n
+CONFIG_ZMK_WIDGET_BATTERY_STATUS=n
+CONFIG_ZMK_POINTING=y
+CONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16
