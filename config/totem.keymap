@@ -4,10 +4,10 @@
 #include "../miryoku/custom_config.h"
 #include "../miryoku/mapping/38/totem.h"
 #include "../miryoku/miryoku.dtsi"
-// / {
-//     combos {
-//         compatible = "zmk,combos";
-//         HENRI_COMBO_MACRO(esc, U_BASE, 6 18, &kp ESC)
-//         HENRI_COMBO_MACRO(repeat, U_BASE, 18 30, &key_repeat)
-//     };
-// };
+/ {
+    combos {
+        compatible = "zmk,combos";
+        HENRI_COMBO_MACRO(esc, U_BASE, 6 18, &kp ESC)
+        HENRI_COMBO_MACRO(repeat, U_BASE, 18 30, &key_repeat)
+    };
+};
