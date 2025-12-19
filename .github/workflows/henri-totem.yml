@@ -5,6 +5,6 @@ jobs:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      board: '["nrf52840_m2"]'
+      board: '["xiao_ble"]'
       shield: '["totem_left","totem_right"]'
       kconfig: '["CONFIG_ZMK_POINTING=y\nCONFIG_ZMK_COMBO_MAX_COMBOS_PER_KEY=16"]'
