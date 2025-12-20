@@ -7,7 +7,7 @@
 / {
     combos {
         compatible = "zmk,combos";
-        HENRI_COMBO_MACRO(esc, U_BASE, 6 18, &kp ESC)
-        HENRI_COMBO_MACRO(repeat, U_BASE, 18 30, &key_repeat)
+        HENRI_COMBO_MACRO(esc, U_BASE, 7 18, &kp ESC)
+        HENRI_COMBO_MACRO(repeat, U_BASE, 19 30, &key_repeat)
     };
 };
