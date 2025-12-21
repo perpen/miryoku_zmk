@@ -1,4 +1,4 @@
-Run workflow `henri`.
+Run workflows `henri-*`.
 
 
 # Copyright 2023 Manna Harbour
