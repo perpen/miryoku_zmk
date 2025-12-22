@@ -16,16 +16,6 @@
 &kp ESC  K20  K21  K22  K23  K24       K25  K26  K27  K28  K29  &key_repeat \
                    K32  K33  K34       K35  K36  K37
 
-/*
- * q  w  f  p  b    j  l  u  y  '
-   01 02 03 04 05   06 07 08 09 10
-   a  r  s  t  g    m  n  e  i  o
-   11 12 13 14 15   16 17 18 19 20
-   z  x  c  d  v    k  h  ,  .  /
-21 22 23 24 25 26   27 28 29 30 31 32
-         33 34 35   36 37 38
- */
-
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_LEFT 33 34
 #define MIRYOKU_KLUDGE_THUMBCOMBOS_RIGHT 35 36
 
