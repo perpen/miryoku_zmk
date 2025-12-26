@@ -8,7 +8,7 @@
 // #define TOTEM_LEFT_PINKIE &kp ESC
 #define TOTEM_LEFT_PINKIE &kp LC(G)
 // #define TOTEM_RIGHT_PINKIE &key_repeat
-#define TOTEM_RIGHT_PINKIE LC(G)
+#define TOTEM_RIGHT_PINKIE &kp LC(G)
 
 #define MIRYOKU_LAYOUTMAPPING_TOTEM( \
      K00, K01, K02, K03, K04,      K05, K06, K07, K08, K09, \
